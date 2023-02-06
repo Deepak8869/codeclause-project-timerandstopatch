@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+body{
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+    position: relative;
+}
+.btn{
+    color: rgb(3, 2, 2);
+    padding: 8px 30px;
+    margin: 10px 0;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+main{
+    
+    height: 100vh;
+    width: 100vw;
+    background-image: url("convert.webp");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin-top: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    justify-content: center;
+    height: 90vh;
+    width: 60vw;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    background-image: linear-gradient(to bottom,#F99417,white,green);
+
+}
+.container img{
+    border-radius: 30%;
+    box-shadow:7px 9px 10px grey;
+    margin-bottom: 35px;
+}
+h1{
+    color: red;
+    margin-bottom: 10px;
+    font-size: 40px;
+    margin-top: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.btn{
+    display: flex;
+}
+.btn a{
+    text-decoration: none;
+}
+.btn img{
+    width: 80%;
+}
+.btn button{
+    margin: 82px 4px;
+    width: auto;
+    padding: 15px 25px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px grey;
+    font-weight: bold;
+}
